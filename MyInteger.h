@@ -16,9 +16,9 @@ private:
     int pri_num; //The number that is set to Integer1
 };
 
-MyInt::MyInt(int num) //
+MyInt::MyInt(int num) //This function allows you to access the private variable
 {
-    pri_num = num; //
+    pri_num = num;
 }
 
 int MyInt::get() //This function returns the private integer
